@@ -14,10 +14,11 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 
 ## Theory
+ Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
  
-
-## Logic Diagram
 ## Procedure
+The input and output variables are allocated with letter symbols. The exact truth table that defines the required relationships between inputs and outputs is derived.Boolean function is obtained from each output.
+
 ## Program:
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
@@ -62,7 +63,8 @@ F2
 TRUTH TABLE
 
 
-![Uploading s1.png…]()
+
+
 
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.

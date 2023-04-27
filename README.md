@@ -62,6 +62,7 @@ F2
 
 TRUTH TABLE
 
+![s1](https://user-images.githubusercontent.com/118680410/234777616-df55cbf8-8d7f-4399-bed3-bcec311ea4e3.png)
 
 
 

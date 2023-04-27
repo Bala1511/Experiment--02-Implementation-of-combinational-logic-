@@ -21,13 +21,38 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 ## Program:
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: BALA MURUGAN.P
+RegisterNumber:  212222230017
 */
-## RTL realization
+```
+module cpmbine(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire p,q,r;
+assign p=(~c & b & a);
+assign q=(~d & c & c & a);
+assign r=(c & ~b & a);
+assign f=(~(~p & ~q & ~r));
+endmodule
 
+module combine1(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire p,q,r;
+assign p=(c & ~b & a);
+assign q=(d & ~c & a);
+assign r=(c & ~b & a);
+assign f=((p | q & |r));
+endmodule
+```
+## RTL realization
 ## Output:
 ## RTL
+
+
 ## Timing Diagram
+
+
+
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
